@@ -1,25 +1,32 @@
 .statistics {
-  height: 250px;
+  background-color: cadetblue;
+  margin-bottom: 30px;
+  width: 400px;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  background-color: cadetblue;
-  max-width: 600px;
-  margin: 0 auto;
 }
 .title {
-  margin-top: 46px;
   text-align: center;
-  font-size: 34px;
+  margin: 0 auto;
+  font-size: 24px;
   color: floralwhite;
 }
 .statList {
-  margin-bottom: 46px;
+  width: 400px;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 68px;
+}
+.item {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #434455;
 }
 .label {
   display: flex;
